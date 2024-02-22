@@ -16,5 +16,5 @@ class Estudiante(Persona):
     def presentarse(self):
         print(f"Datos del Estudiante: \nNombre: {self.nombre}\nEdad: {self.edad}\nPaís: {self.pais}\nNotas:{self.notas}\nUniversidad: {self.universidad} ") 
         
-juan=Estudiante("Juan", 45,"Colombia",19, "Espe")
+juan=Estudiante("Miguel", 30,"Chile",21, "ESPE")
 juan.presentarse()
